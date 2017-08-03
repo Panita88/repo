@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.2" provider-name="Alfa-Addon">
     <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
-        <info>https://github.com/Panita88/repo/raw/master/alfa-addon/addons.xml</info>
-        <checksum>https://github.com/Panita88/repo/raw/master/alfa-addon/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/Panita88/repo/raw/master/alfa-addon/</datadir>
+        <info>https://github.com/Panita88/repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/Panita88/repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/Panita88/repo/raw/master/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para Alfa-Addon</summary>
