@@ -3,7 +3,7 @@
 <addon id="plugin.video.alfa" name="Alfa" version="0.0.7" provider-name="unknown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.alfa-script"   optional="false"/>
+    <import addon="script.alfa-script" version="0.0.1"/>
     <import addon="script.module.libtorrent" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
