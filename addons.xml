@@ -3,6 +3,7 @@
 <addon id="plugin.video.alfa" name="Alfa" version="0.0.7" provider-name="unknown">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.alfa-script"   optional="false"/>
     <import addon="script.module.libtorrent" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -44,5 +45,26 @@
         <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="script.alfa-script" name="Alfa - Script que soluciona problema variables en settings" version="0.0.1" provider-name="unknown">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="script.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Sumario en Español</summary>
+    <description lang="es">Descripción en Español</description>
+    <summary lang="en">English summary</summary>
+    <description lang="en">English description</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>source</source>
+  </extension>
 </addon>
 </addons>
